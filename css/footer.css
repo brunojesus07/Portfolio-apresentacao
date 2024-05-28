@@ -9,7 +9,7 @@
 
 .footer-container {
     max-width: 1200px;
-    padding: 120px 20px 60px 20px;
+    padding: 120px 20px 40px 20px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -38,6 +38,10 @@
   gap: 10px;
 }
 
+.footer-contato a { 
+  align-self: center;
+}
+
 .footer-contato li a {
   text-decoration: none;
   color: #fff;
@@ -49,6 +53,10 @@
   font-size: 1.25rem;
   color: #8f8f8f;
   padding: 20px;
+}
+
+.link:hover {
+  color: #8f8f8f;
 }
 
 @media (max-width: 800px) {
