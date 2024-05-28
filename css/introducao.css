@@ -57,19 +57,11 @@
   .introducao {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-  }
-  .img {
-    max-width: 70%;
   }
 }
 
 @media (max-width: 400px) {
   .introducao {
     grid-template-columns: 1fr;
-  }
-  .introducao img {
-    width: 80%;
-    margin: 0 auto;
   }
 }
